@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ratdock/rolftehroach/cock_roach"
+	"$bumpmap" "models/ratdock/rolftehroach/cock_roach_nm"
+	"$phongexponenttexture" "models/ratdock/rolftehroach/phong_exp"
+
+	"$model" 1
+	"$nocull" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.25 0.25 0.25]"
+	"$normalmapalphaenvmapmask" 1
+
+	"$color2" "[0.8 0.8 0.8]"		
+
+	"$phong"				"1"
+	"$phongboost"			"5"
+	"$phongexponent"			"32"
+	"$phongtint"			"[0.1 0.1 0.1]"
+	"$phongfresnelranges"	"[.78 .9 1]"
+	"$rimlight" 				"12"	
+	"$rimlightexponent" 			"50"
+	"$rimlightboost"			"0.1"
+
+	"$colorfix" "{225 225 225}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
